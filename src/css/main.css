@@ -5,4 +5,8 @@ html{height:100%;box-sizing:border-box;-webkit-text-size-adjust:100%;-webkit-tap
 .parent > ul {
   display: inline-block;
 }
-}}
+
+#rcorners {
+  border-radius: 100%;
+}
+}
