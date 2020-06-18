@@ -1,114 +1,43 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PixelPlusUI Site</title>
-    <link href="https://fonts.googleapis.com/css?family=Product+Sans" rel="stylesheet" type="text/css">
+    <title>PixelPlusUI - Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google Sans:400">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/main.css">
+	<link rel="icon" type="image/png" href="./assets/images/PixelPlusUI.png"/>
 </head>
 
 <body>
-    <div class="header__wrap wrap">
+
+	<a href="https://t.me/kostyajrz">
+	<img src="./assets/images/poweredby.png" id="thx" style="height:170px;position:absolute;right:0;top:20px;">
+	</a>
+    
+	<div class="header__wrap wrap">
         <header>
+		<br style="line-height: 60px"/>
            <div class="branding">
                 <a href="./index.html">
                     <img src="./assets/images/PixelPlusUI.png" alt="" width="100" height="100" align="middle">
                 </a>
             </div>
-            <hr>
-            <h6 class="header__title">PixelPlusUI</h6>          
-            <hr>
-            <br>
+            <h6 class="header__title">
+			
+			<span id="about">PixelPlusUI is a powerful custom ROM,<br/> 
+			with extended Pixel Experience</span>
+			</h6>
+			
             <div class="header__links">
+			<br style="line-height: 20px">
                 <a href="./downloads.html" class="devices">Download</a>
-            <ul class="footer__links">
-                <li><a href="./devilx.html">DevilX Update Changelog</a></li>
-            </ul>
+				<br>
+				<br style="line-height: 20px" />
+				<a href="./changelog.html" class="devicesch">Changelog</a>
             </div>
         </header>
     </div>
-
-    <section class="features">
-        <div class="wrap">
-            <div class="features__grid">
-                <div class="f__item">
-                    <div class="f__icon">
-                        <i class="material-icons md-48">
-                            dashboard
-                        </i>
-                    </div>
-
-                    <div class="f__intro">
-                        <h3>Customization Center</h3>
-                        <p>Some special settings, for customizing your system</p>
-                    </div>
-                </div>
-
-                <div class="f__item">
-                    <div class="f__icon">
-                        <i class="material-icons md-48">
-                            system_update
-                        </i>
-                    </div>
-
-                    <div class="f__intro">
-                        <h3>OTA Updates</h3>
-                        <p>Install updates Over-The-Air, with only one button</p>
-                    </div>
-                </div>
-
-                <div class="f__item">
-                    <div class="f__icon">
-                        <i class="material-icons md-48">
-                            sentiment_satisfied_alt
-                        </i>
-                    </div>
-
-                    <div class="f__intro">
-                        <h3>Good Community</h3>
-                        <p>If you need any help, ask on our Telegram Group, and we will help!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="wrap">
-            <div class="maintained">
-                ROM by <a href="https://t.me/kostyajrz">KostyaJRZ</a>
-            </div>
-            <ul class="footer__links">
-                <li><a href="https://github.com/PixelPlusUI-Devices">Devices GitHub</a></li>
-                <li><a href="https://github.com/PixelPlusUI">GitHub</a></li>
-                <li><a href="https://t.me/ppuichat">Telegram</a></li>
-                <li><a href="https://t.me/ppuich">Telegram Channel</a></li>
-            </ul>
-        </div>
-    </footer>
-
-
-    <script src="./src/js/glide.min.js"></script>
-    <script>
-        new Glide(".glide", {
-            type: "carousel",
-            perView: 4,
-            breakpoints: {
-                1024: {
-                    perView: 2
-                },
-                600: {
-                    perView: 1
-                }
-            },
-            startAt: 0,
-            gap: 40,
-            autoplay: 2000,
-        }).mount();
-    </script>
 </body>
-
 </html>
